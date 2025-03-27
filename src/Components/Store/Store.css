@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --text-dark: #000000;
+  --text-light: #727274;
+  --extra-light: #f3f4f6;
+  --white: #ffffff;
+  --max-width: 1200px;
+  --header-font: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.store__container h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.store__container p {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.store__card {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  cursor: pointer; /* Change cursor to pointer */
+  width: 250px; /* Set a fixed width for better alignment */
+  margin: 0 1rem; /* Add horizontal margins for spacing */
+}
+
+.store__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.store__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.store__card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.store__card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.product-details {
+  margin-top: 1rem;
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.store__card:hover .product-details {
+  opacity: 1; /* Fade in effect */
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: var(--text-dark);
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--extra-light);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section__container {
+    padding: 3rem 1rem;
+  }
+
+  .store__card {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .store__container h2 {
+    font-size: 2rem;
+  }
+
+  .store__card h4 {
+    font-size: 1.25rem;
+  }
+
+  .store__card h3 {
+    font-size: 1rem;
+  }
+}
