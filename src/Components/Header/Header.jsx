@@ -152,7 +152,7 @@ const Header = () => {
         <HeaderImage variants={itemVariants}>
         <BackgroundText>PRODUCT</BackgroundText>
           <motion.img
-            src="src/assets/01-removebg-preview.png"
+            src="/assets/01-removebg-preview.png"
             alt="header"
             variants={itemVariants}
           />
