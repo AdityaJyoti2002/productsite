@@ -201,7 +201,7 @@ const Product = () => {
         <ProductGrid>
           <ProductImage variants={imageVariants}>
             <motion.img
-              src="src/assets/01-removebg-preview.png"
+              src="/assets/01-removebg-preview.png"
               alt="product"
             />
           </ProductImage>

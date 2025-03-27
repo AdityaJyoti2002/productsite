@@ -32,7 +32,7 @@ const VideoCover = () => {
   return (
     <VideoContainer>
       <VideoBackground autoPlay loop muted>
-        <source src="src/assets/WhatsApp Video 2025-03-28 at 1.20.32 AM.mp4" type="video/mp4" />
+        <source src="/assets/WhatsApp Video 2025-03-28 at 1.20.32 AM.mp4" type="video/mp4" />
         
       </VideoBackground>
    

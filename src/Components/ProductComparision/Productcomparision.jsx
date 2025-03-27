@@ -176,7 +176,7 @@ const ProductComparison = () => {
                 <StickyColumn style={{ background:"#43bbcd", color:"black", fontSize:"20px"}}>Product Comparison Table</StickyColumn>
                 <TableHeader id="product-col">
                   <ProductImage
-                    src="src/assets/WhatsApp Image 2025-03-28 at 2.30.17 AM.jpeg"
+                    src="/assets/WhatsApp Image 2025-03-28 at 2.30.17 AM.jpeg"
                     alt="Maxwell RSC"
                   />
                   {/* <h5>
@@ -188,7 +188,7 @@ const ProductComparison = () => {
                 </TableHeader>
                 <TableHeader>
                   <ProductImage 
-                    src="src/assets/WhatsApp Image 2025-03-28 at 2.37.17 AM.jpeg"
+                    src="/assets/WhatsApp Image 2025-03-28 at 2.37.17 AM.jpeg"
                     alt="Maxwell RSC 48"
                   />
                   {/* <h5>

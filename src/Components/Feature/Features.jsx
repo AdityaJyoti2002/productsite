@@ -155,7 +155,7 @@ const Features = () => {
           ))}
         </FeaturesGrid>
         <ImageContainer>
-          <WatchImage src="src/assets/01-removebg-preview.png" alt="Smart Watch" />
+          <WatchImage src="/assets/01-removebg-preview.png" alt="Smart Watch" />
         </ImageContainer>
         <FeaturesGrid>
           {features.slice(4).map((feature) => (
