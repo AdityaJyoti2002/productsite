@@ -1,8 +1,6 @@
 // src/VideoCover.js
 import React from 'react';
 import styled from 'styled-components';
-// import backgroundVideo from 'src/assets/WhatsApp Video 2025-03-28 at 1.20.32 AM.mp4'; // Replace with your video path
-// import backgroundMusic from 'src/assets/WhatsApp Audio 2025-03-28 at 2.49.59 AM.mpeg'; // Replace with your music path
 
 const VideoContainer = styled.div`
   position: relative;
