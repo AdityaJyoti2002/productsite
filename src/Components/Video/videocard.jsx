@@ -10,14 +10,15 @@ const VideoContainer = styled.div`
 
 const VideoBackground = styled.video`
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: -1;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 `;
 
 const Content = styled.div`
@@ -32,7 +33,7 @@ const VideoCover = () => {
   return (
     <VideoContainer>
       <VideoBackground autoPlay loop muted>
-        <source src="/assets/WhatsApp Video 2025-03-28 at 1.20.32 AM.mp4" type="video/mp4" />
+        <source src="/assets/VIDEO-2025-03-28-15-30-15.mp4" type="video/mp4" />
         
       </VideoBackground>
    
