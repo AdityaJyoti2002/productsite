@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import "../Header/Header.css"
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
   text-align: center;
@@ -171,11 +171,11 @@ const Features = () => {
         
       </FeaturesSection>
       <ProductButton>
-          <Button href="#store"
-            
-          >
-            PreOrder
+        <Link to="/Photo">
+          <Button>
+            See More Detail 
           </Button>
+          </Link>
         </ProductButton>
     </Container>
   );

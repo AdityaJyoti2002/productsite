@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled.nav`
@@ -138,7 +139,9 @@ function Navbar() {
       </NavHeader>
       <NavLinks ref={navRef}>
         <NavLink>
-          <a href="#home">Home</a>
+          <Link to="/">
+          <a >Home</a>
+          </Link>
         </NavLink>
         <NavLink>
           <a href="#product">Product</a>
@@ -147,7 +150,7 @@ function Navbar() {
           <a href="#feature">Features</a>
         </NavLink>
         <NavLink>
-          <a href="#about">About</a>
+          <a href="#product">About</a>
         </NavLink>
         <NavLink>
           <a href="#contact">Contact</a>
