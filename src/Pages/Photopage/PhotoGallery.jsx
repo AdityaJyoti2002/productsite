@@ -60,13 +60,13 @@ const ImgContentHover = styled.span`
 `;
 
 const images = [
-  { src: 'public/assets/1.jpeg', title: 'powercard' },
-  { src: 'public/assets/2.jpeg', title: 'powercard' },
-  { src: 'public/assets/3.jpeg', title: 'powercard' },
-  { src: 'public/assets/4.jpeg', title: 'powercard' },
-  { src: 'public/assets/5.jpeg', title: 'powercard' },
-  { src: 'public/assets/6.jpeg', title: 'powercard' },
-  { src: 'public/assets/7.jpeg', title: 'powercard' },
+  { src: '/assets/1.jpeg', title: 'powercard' },
+  { src: '/assets/2.jpeg', title: 'powercard' },
+  { src: '/assets/3.jpeg', title: 'powercard' },
+  { src: '/assets/4.jpeg', title: 'powercard' },
+  { src: '/assets/5.jpeg', title: 'powercard' },
+  { src: '/assets/6.jpeg', title: 'powercard' },
+  { src: '/assets/7.jpeg', title: 'powercard' },
 ];
 
 const Gallery = () => {
